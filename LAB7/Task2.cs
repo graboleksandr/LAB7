@@ -1,6 +1,6 @@
 ﻿using System;
 
-class BankTerminal
+/*class BankTerminal
 {
     public event Action<int> OnMoneyWithdraw;
 
@@ -25,4 +25,4 @@ class Program
         // terminal.OnMoneyWithdraw?.Invoke(1000000); 
         // Помилка CS0070: Подія не може бути викликана безпосередньо ззовні класу.
     }
-}
+}*/
