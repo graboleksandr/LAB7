@@ -9,7 +9,8 @@ class Program
 
         for (int i = 1; i <= 5; i++)
         {
-            actions.Add(() => Console.WriteLine(i));
+            int localI = i;
+            actions.Add(() => Console.WriteLine(localI));
         }
 
         foreach (var action in actions)
